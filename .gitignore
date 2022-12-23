@@ -1,0 +1,12 @@
+# idea
+.idea
+.idea/
+*.iml
+
+# macOS
+.DS_Store
+**/.DS_Store
+
+# go
+**/go.sum
+go.work.sum
