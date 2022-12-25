@@ -1,7 +1,7 @@
 package result
 
 import (
-	"errors"
+	"github.com/pkg/errors"
 	"github.com/shrinex/shrinex-core-backend/errx"
 	"github.com/zeromicro/go-zero/core/logx"
 	"github.com/zeromicro/go-zero/rest/httpx"

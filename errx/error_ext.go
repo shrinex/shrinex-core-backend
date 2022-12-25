@@ -1,19 +1,9 @@
 package errx
 
 import (
-	"errors"
-	"fmt"
+	"github.com/pkg/errors"
 	"google.golang.org/grpc/status"
 )
-
-// Wrapf is aimed to use at api side
-func Wrapf(err error, format string, args ...any) error {
-	if err == nil {
-		panic("err is nil")
-	}
-	msg := fmt.Sprintf(format, args...)
-	return fmt.Errorf("%w: %s", err, msg)
-}
 
 // Is test if err contains specified error code
 func Is(err error, code int, codes ...int) bool {

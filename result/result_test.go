@@ -1,8 +1,8 @@
 package result
 
 import (
-	"errors"
 	"fmt"
+	"github.com/pkg/errors"
 	"github.com/shrinex/shrinex-core-backend/errx"
 	"github.com/stretchr/testify/assert"
 	"github.com/zeromicro/go-zero/core/jsonx"
